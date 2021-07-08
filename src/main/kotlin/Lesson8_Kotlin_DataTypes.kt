@@ -77,13 +77,36 @@ fun detailsNumbers(){
 
     val myNumSci1: Float = 30E3F
     val myNumSci2: Double = 20E4
-    println(myNumSci1)
-    println(myNumSci2)
+    println("$myNumSci1 \n $myNumSci2")
+}
+
+fun boolAndCharsAndString(){
+    /*
+        The Boolean data type and can only take the values true or false
+        # true -> condition satisfied
+        # false -> condition not-satisfied
+     */
+
+    val numberIsPar = true
+    val numberIsOdd = false
+    println("$numberIsPar \n $numberIsOdd")
+
+    // The Char data type is used to store a single character.
+
+    val oneLetter = 'F'
+    println(oneLetter)
+
+    // The String data type is used to store a sequence of characters (text)
+
+    val oneString = "FreeFire_Fortnite_PUBG"
+    println(oneString)
+
 }
 
 fun main(){
     dataTypes()
     detailsNumbers()
+    boolAndCharsAndString()
 }
 
 // Tomorrow I continue ...
