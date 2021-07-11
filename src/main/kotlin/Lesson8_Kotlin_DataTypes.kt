@@ -1,3 +1,5 @@
+import kotlin.reflect.typeOf
+
 fun dataTypes(){
     val number = 10                                 // Integer
     val numberDouble = 10.01                        // Double
@@ -103,10 +105,28 @@ fun boolAndCharsAndString(){
 
 }
 
+fun typeConversion(){
+    /*
+        Type Conversion:
+
+        Type conversion is when you convert the value of one data type to another type.
+        To convert a numeric data type to another type, you must use one of the following functions:
+
+         --> toByte(), toShort(), toInt(), toLong(), toFloat(), toDouble() or toChar(): <--
+     */
+
+    val num: Short = 10
+    val num2: Long = num.toLong()
+
+    println("Now, $num Is a Short Int")
+    println("Now, $num2 Is a Long Int")
+}
+
 fun main(){
     dataTypes()
     detailsNumbers()
     boolAndCharsAndString()
+    typeConversion()
 }
 
 // Tomorrow I continue ...
