@@ -38,7 +38,7 @@ fun testConditions() {
 
     /*
 
-        Lesson 11 - Kotlin When
+        Lesson 12 - Kotlin When
 
         You can use the when expression, which is much easier to read. (similar to expression 'switch'). Example:
 
