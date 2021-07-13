@@ -35,6 +35,30 @@ fun testConditions() {
     var num3 = if (num1 == 10 && num2 < 20) "both are in range [10, 20]" else "both are at different intervals"
     println(num3)
     // Yes, you can also use if..else statements as expressions (assign a value to a variable and return it)!
+
+    /*
+
+        Lesson 11 - Kotlin When
+
+        You can use the when expression, which is much easier to read. (similar to expression 'switch'). Example:
+
+     */
+
+    var dayWeek: Int = 5
+
+    var weekDay = when(dayWeek) {
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Wednesday"
+        4 -> "Thursday"
+        5 -> "Friday"
+        6 -> "Saturday"
+        7 -> "Sunday"
+        else -> "Invalid Day"
+    }
+    println("Today is $weekDay")
+
+    // The when expression is similar to the switch statement in Java.
 }
 
 fun main() {
