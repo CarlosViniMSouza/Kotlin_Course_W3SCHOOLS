@@ -1,4 +1,4 @@
-package KotlinOOP
+package kotlin_oop
 
 /*
     Kotlin Inheritance (Subclass and Superclass)

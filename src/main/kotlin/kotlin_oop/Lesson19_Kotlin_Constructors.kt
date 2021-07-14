@@ -1,4 +1,4 @@
-package KotlinOOP
+package kotlin_oop
 
 /*
     In Kotlin, there's a faster way of doing this, by using a constructor.

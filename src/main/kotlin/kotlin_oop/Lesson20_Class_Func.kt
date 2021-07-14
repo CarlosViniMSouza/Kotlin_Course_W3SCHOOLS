@@ -1,4 +1,4 @@
-package KotlinOOP
+package kotlin_oop
 
 /*
     # Kotlin Class Functions:
